@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Merienda+One&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+* {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+  text-align: center;
+  background: #2D1E2F;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
